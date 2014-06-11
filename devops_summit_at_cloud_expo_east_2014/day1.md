@@ -1,6 +1,6 @@
 the first DevOps Summit at Cloud Expo
 
-A New State of the Art for Application Development and Delivery
+#A New State of the Art for Application Development and Delivery
 http://devopssummit.sys-con.com/event/session/2238
 
 me-summary: "We should build software like planes"
@@ -71,10 +71,10 @@ If a plane goes down, you need a black box! It's a necesarry overhead.
 
 Repeatable load patterns for real world testing.
 
-slideshare.new/CAinc
+http://www.slideshare.net/cainc
 
 --------------------
-Managing Drift and Cross-Silo Collaboration, ITInvolve
+# Managing Drift and Cross-Silo Collaboration, ITInvolve
 http://devopssummit.sys-con.com/event/session/2315
 
 me:The Danger of Silo-ed thinking
@@ -103,7 +103,7 @@ Agile stats pulled out to side
 Perspectives: Gantt, Kanban, Work Type,
 
 -----------------------
-The Essence of DevOps / Are We Doing DevOps right?
+#The Essence of DevOps / Are We Doing DevOps right?
 http://devopssummit.sys-con.com/event/session/2265
 
 IT is being asked to operate on a new level
@@ -170,114 +170,146 @@ The biggest challenge -> we are asking people to think and behave in different w
 
 --------------------
 hand-written notes:
-today-business-tomorrow-apps_1.jpg
-today-business-tomorrow-apps_2.png
+
+- [today-business-tomorrow-apps_1.jpg](https://github.com/donaldguy/conference_fieldnotes/blob/master/devops_summit_at_cloud_expo_east_2014/today-business-tomorrow-apps_1.jpg)
+- [today-business-tomorrow-apps_2.png](https://github.com/donaldguy/conference_fieldnotes/blob/master/devops_summit_at_cloud_expo_east_2014/today-business-tomorrow-apps_2.jpg)
+
 http://devopssummit.sys-con.com/event/session/2241
+
 --------------------
-Is DevOps Really Changing How IT is Working? Panel
+# Is DevOps Really Changing How IT is Working? Panel
 http://www.cloudcomputingexpo.com/event/session/2214
 
 Moderator, Larry Carvalho, PaaS researcher (M:)
 
-Can Enterprise companies really duplicate what born in the cloud companies do?
+M: Can Enterprise companies really duplicate what born in the cloud companies do?
 
-John Willis (JW:) - Good IT performance is a predictor of making money. There are now certiain practices that have been shown to lead
+- John Willis (JW:) - Good IT performance is a predictor of making money. There are now certiain practices that have been shown to lead
 to this competitive advantage
 
-Randy Bias , CTO of CloudScaling (RB:) - Kaiser Permanente, $35b company figuring out cloud strategy in 2009. IT leadership disappeared kp.org had 3 outages
+- Randy Bias , CTO of CloudScaling (RB:) - Kaiser Permanente, $35b company figuring out cloud strategy in 2009. IT leadership disappeared kp.org had 3 outages
 in a month, disappeared during development. Siloing has been shown to go against the grain towards making the leap to webscale.
 The goal is stability and quick recovery?
 
-Andi Mann, CA Technologies (AM:) - Clients have many examples of how they're doing devops. The large enterprises are unique and are going to have
+- Andi Mann, CA Technologies (AM:) - Clients have many examples of how they're doing devops. The large enterprises are unique and are going to have
 to adapt patterns to make them work within their business. SEC compliance is not a concern of "webscale startups". And their freedom
 from those constraints will let them eat your lunch if you can't move as fast
 
-Vasu Sankhavaram, HP (VS:) - Large enterprises _are_! taking this journey. I look at DevOps as a connected system. Think about it as Yin and Yang. You need
+- Vasu Sankhavaram, HP (VS:) - Large enterprises _are_! taking this journey. I look at DevOps as a connected system. Think about it as Yin and Yang. You need
 to take into account the culture, the current legacy
 
-Bernard Golden, ActiveState (BG:)- "They are adopting it quite rapidly." Driven by the  - "speed of cloud " is a forcing function, asking you to speed up the
+- Bernard Golden, ActiveState (BG:)- "They are adopting it quite rapidly." Driven by the  - "speed of cloud " is a forcing function, asking you to speed up the
 rest of your process.
 
 M: When companies are doing this, what are they doing?
 
 BG: It's a forcing function. The impetus is companies find out they have a pretty important app working out of the cloud and
 other requirements have to play catch up, which leads to a reactive process of rapid adaptation. Which is chaos
+
 VS: Get the grassroots movement getting going. Unless there is a commonality of understanding, everything will grind to a stop
+
 AM:. When you think of DevOps as speedy delivery, its about finding what is slowing you down and fixing it. They think stability
 means no change. Removing constraints in the dev/test cycle. A different pace of change for different layers of your environment
 is acceptable (?).
+
 RB: The idealist in me wants to say "operate like the webscale guys". The pragmatist says "there exists a contract mismatch
 between managing risk vs delivering value". Fidelity has rewritten their dev-contract, developers can do anything they want so
 long as they use the common tools and follow the common process, to allow mixins of common policy.
+
 JW: There is no shortcut. Enterprise wants to hear you can fake it, but you can't. FB- how did FB get to a billion users,
-and its not a techonology problem, its a culture problem. People say they want to be like Google or FB by doing more with less
+and its not a technology problem, its a culture problem. People say they want to be like Google or FB by doing more with less
 but those companies do more with MORE. Job satisfaction being the number one indicator for IT performance.
 
-How do you see continous integration and deployment fitting in with devops?
+M: How do you see continuous integration and deployment fitting in with devops?
 
 JW: theres certain fundamentals to that flow:
   - Source control. Manage your artifacts at every step of the process. Keep track of it all and don't lose work.
   - Collaborative workflow for peer review
   - Github has been very useful for this.
   - You don't have to start at the end. its a process
+
 RB: The ops firefighting mess was of our own creation - heterogeneity is the enemy; you can't manage that much complexity.
 We need more genericisity. More homogenous and less legacy systems open up headroom to improve the situation cause you aren't
-spending as much energy on maintainence. Fear of change prevents innovation. "My first job was in 1990. I was the junior sysadmin
+spending as much energy on maintenance. Fear of change prevents innovation. "My first job was in 1990. I was the junior sysadmin
 on the team. I had taught myself unix. I learned to code and do ops at the same time, I didn't understand there was a difference.
 When I started automating stuff, the older guys were pissed. They were trying to do their minimum of understood work."
+
 AM: DevOps starts with planning. What am I doing in my business that is mission critical? What isn't? If it isn't, give it up.
 (i.e. outsource it). Some of the things you are doing, you shouldn't be doing! It's taking your resources that you could use
 for something else.
+
 VS: What do you mean my these things? You need clarity. Looking at things as a value change, you can find the points for optimization.
-Baselining and streamleaning.
+Baselining and streamlining.
+
 BG: There's pressure to remove the legacy - you need an exit plan. Sunset what you can, rework the core you can't. 60% can be
-ousourced.
+outsourced.
 
 M: ms and aws claim putting things in the cloud will allow continous measurement. "What's the deal with that?" whats the toolchain
+
 AM: automation is key to this. increasing speed of flow and making clean handoffs. Closing the feedback loop.
-JW. It's git. It's Jenkins. This is the model thats driving whats on your phone - there is a reason for that. Puppet or chef,
+
+JW: It's git. It's Jenkins. This is the model thats driving whats on your phone - there is a reason for that. Puppet or chef,
 hopefully looking to us for network configuration
+
 RB: pets vs cattle - 9s of reliability come from assuming lack of reliability. Dragging old baggage to new game is gonna hold
 you back. You have to be able to deal with failure. You need a plan
+
 VS: communication and Collaboration tools - culture works on a virtual water cooler. frictionless tools
+
 BG: most enterprises won't build an infrastructure from open source tools - they want off the shelf
 and ready to go. 10x scaling is to be expected. You have to anticipate 10x cost for that scaling.
 
 RB: When you were saying this, it sounded like you were saying don't be distracted by the shiny tools and focus on the culture?
+
 JW: That's pretty much right. When I worked for PuppetLabs, people would ignore me and tell me they simply didn't need it.
 there was a 3% club you could get in who had this right. Now its more like 18 or 19%. You can learn from what others do with
 the tools and how the tools come to reflect that. The skillets have been commeditized
 
 M:Do Universities have a role in moving these thought patterns into the new school? Are they still teaching the old ones?
+
 JW. It drives me nuts that a CS student never hears about Demming and Goldratt.
+
 VS: I think there are constructs that are being taught around business agility. I don't know how the technology side is being taught
+
 BG: the traditional complaint is that the curricula lag the way things are. People are coming out with the idea that resources
 are easy at hand - open source, off the shelf. They focus on the app - they are good customers
+
 AM: It's tough to hire people - we aren't looking for knowledge - we are looking for ability. Skills and knowledge are taught,
 not ability and attitude. Path and Snapchat made terrible assumptions because the attitudes of governace were not taught.
+
 RB: Cynicism . In the early 90s, you couldn't learn from a university. Running production systems is totally unrelated to
 anything you do in school. You aren't taught to avoid problems.
 
 M: do you see this as complimentary to DevOps or no? Do you see it convergent?
+
 BG: Did I mention that ActiveState is a platform as a service company? Businesses got to move faster. Somehow. PaaS for development
 DevOps for deployment
+
 VS:  Service needs to dominate logic?
+
 AM: I'm not convinced by PaaS yet. From an Ent perspective, I see PaaS as a reaction against the intertia of an ops department
 that can't satisfy the needs of development so automate it out of the way. But specialization remains a requirenment, so the
 ops team need to deliver.
+
 RB: there's a spectrum between role your own (netflix) to all of the shelf; in the middle you can embed some practices
-JW. Containers.
+
+JW: Containers. The new plastics
 
 Audience: what would you recommend for a university program
+
 AM: Students need an internship experience - real world experience
+
 RB: Do it at a startup
+
 JW: Deming
 
 ------
 notes from last slide of "High Tempo, High Consequences"
-top half of devops-networks.jpg
+
+top half of [devops-networks.jpg](https://github.com/donaldguy/conference_fieldnotes/blob/master/devops_summit_at_cloud_expo_east_2014/devops-networks.jpg)
+
 ------
-Alice In Wonderland - Is the Network the Next Frontier for Devops?
+# Alice In Wonderland - Is the Network the Next Frontier for Devops?
 http://devopssummit.sys-con.com/event/session/2266
 
 Intro
@@ -339,9 +371,10 @@ Devops History Review
   - You can never "ever ever ever" break my network
   - I am afraid I will lose my job
 
-[switched to paper - devops-networks.jpg  ]
+switched to paper - [devops-networks.jpg](https://github.com/donaldguy/conference_fieldnotes/blob/master/devops_summit_at_cloud_expo_east_2014/devops-networks.jpg)
+
 --------------------
-DevOps, The Pager, and The Dawning of Continuos Support
+# DevOps, The Pager, and The Dawning of Continuous Support
 http://devopssummit.sys-con.com/event/session/2272
 
 Work/Life has changed:
